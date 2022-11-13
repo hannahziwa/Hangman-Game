@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<title>Hangman Game</title>
+<link rel='stylesheet' href='style.css'>
+
+<body>
+    <h1 id='h1'>Hangman</h1>
+    <div class="the-hanged-man">
+
+        <svg width="450" height="450" viewBox="30 30 800 800">
+            <g>
+                <rect class="branch" width="500" height="100" x="5" y="-50" />
+                <rect class="tree" width="50" height="360" x="20" y="50" />
+                <rect class="ground" width="500" height="30" x="30" y="400" />
+                <rect class="rope" width="10" height="200" x="440" y="-50" />
+            </g>
+            <g>
+
+                <circle class="head" cx="445" cy="150" r="25" />
+
+                <rect class="body" width="10" height="100" x="440" y="160" />
+
+                <rect class="leg" width="10" height="55" x="420" y="250"
+                    transform="translate(260, -200) rotate(45 60 60)" />
+
+                <rect class="arm" width="10" height="55" x="420" y="250"
+                    transform="translate(348, -238) rotate(45 60 -60)" />
+
+                <rect class="legTwo" width="10" height="55" x="420" y="250"
+                    transform="translate(548, -186) rotate(130 130 250)" />
+
+                <rect class="armTwo" width="10" height="55" x="420" y="250"
+                    transform="translate(548, -255) rotate(130 130 250)" />
+            </g>
+        </svg>
+    </div>
+    <div>
+        <h2 id="h2">Guess the hidden word</h2>
+    </div>
+    <div id="win-or-loss">Lives: </div>
+    <div id="lives">
+    </div>
+    <div id="moves">Moves: </div>
+    <input type="button" value="Play Again" class="play-again" onClick="window.location.reload(true)">
+    <section id="holders"></section>
+    <div class="letters"></div>
+    <button id="hints">Hint</button>
+    <div id="hint">Hint: </div>
+</body>
+<script src="index.js"></script>

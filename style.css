@@ -1,0 +1,240 @@
+body {
+  background: olive;
+  height: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  max-width: 15cm;
+  margin: 0.7em auto;
+  background: wheat;
+  padding: 0.7em;
+  border-radius: 0.7em;
+}
+
+svg {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  position: absolute;
+  left: 660px;
+  top: 320px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  max-width: 15cm;
+  margin: 0.5em auto;
+  background: wheat;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+
+.letters {
+  text-align: center;
+}
+
+button {
+  font-size: 20px;
+  width: 30px;
+  margin: 5px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  border: 2px solid green;
+}
+
+button:hover {
+  background-color: green;
+  color: white;
+}
+
+section {
+  text-align: center;
+  height: 100px;
+}
+
+span {
+  font-size: 30px;
+  color: black;
+  display: inline-block;
+  margin: 15px;
+}
+
+.letter.clicked {
+  background-color: green;
+}
+
+#holders {
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#win-or-loss {
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 250px;
+  right: 430px;
+  font-weight: 700;
+  line-height: 26.4px;
+  max-width: 15cm;
+  margin: 0.5em auto;
+  background: wheat;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  font-size: 15px;
+}
+.the-hanged-man .branch {
+  display: none;
+}
+
+.the-hanged-man .tree {
+  display: none;
+}
+
+.the-hanged-man .ground {
+  display: none;
+}
+
+.the-hanged-man .rope {
+  display: none;
+}
+
+.the-hanged-man .head {
+  display: none;
+}
+
+.the-hanged-man .body {
+  display: none;
+}
+
+.the-hanged-man .leg {
+  display: none;
+}
+
+.the-hanged-man .arm {
+  display: none;
+}
+
+.the-hanged-man .legTwo {
+  display: none;
+}
+
+.the-hanged-man .armTwo {
+  display: none;
+}
+
+.the-hanged-man.false-9 .branch {
+  display: block;
+}
+
+.the-hanged-man.false-8 .tree {
+  display: block;
+}
+
+.the-hanged-man.false-7 .ground {
+  display: block;
+}
+
+.the-hanged-man.false-6 .rope {
+  display: block;
+}
+
+.the-hanged-man.false-5 .head {
+  display: block;
+}
+
+.the-hanged-man.false-4 .body {
+  display: block;
+}
+
+.the-hanged-man.false-3 .leg {
+  display: block;
+}
+
+.the-hanged-man.false-2 .arm {
+  display: block;
+}
+
+.the-hanged-man.false-1 .legTwo {
+  display: block;
+}
+
+.the-hanged-man.false-0 .armTwo {
+  display: block;
+}
+
+.letters.done {
+  pointer-events: none;
+}
+
+.play-again {
+  position: absolute;
+  top: 550px;
+  right: 450px;
+  width: 90px;
+  font-size: 15px;
+  margin: 5px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  border: 2px solid green;
+}
+
+.play-again:hover {
+  background-color: green;
+  color: white;
+}
+#hints {
+  position: absolute;
+  top: 500px;
+  right: 450px;
+  width: 90px;
+  font-size: 15px;
+  margin: 5px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  border: 2px solid green;
+}
+#hint {
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 420px;
+  right: 450px;
+  font-weight: 700;
+  line-height: 26.4px;
+  max-width: 15cm;
+  margin: 0.5em auto;
+  background: wheat;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  font-size: 15px;
+}
+#moves {
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 200px;
+  right: 470px;
+  font-weight: 700;
+  line-height: 26.4px;
+  max-width: 15cm;
+  margin: 0.5em auto;
+  background: wheat;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  font-size: 15px;
+}
